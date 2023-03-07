@@ -1,0 +1,54 @@
+body{
+    background-color: cadetblue !important;
+}
+.welcome_h2{
+    text-align: center;
+    color: white;
+}
+.welcome_p{
+    text-align: center;
+    color: white;
+    
+}
+.five_span{
+    color:green;
+    background-color: lightgray;
+    
+}
+/* the last line of the list extended so that it's height is even */
+.space_li{
+    height: 100%;
+}
+
+.drop_class{
+    text-align: right;
+}
+
+.email_container{
+    background-color: white;
+    border-radius: 5px;
+  
+}
+.email_p{
+    margin-top: 10px;
+    line-height: 2px;
+}
+.email_div{
+   margin-top: 100px;
+}
+
+.textarea_container{
+    margin-top: 150px;
+}
+
+.textarea_button{
+    padding: 5px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    border-radius: 8px;
+    
+}
+
