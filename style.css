@@ -1,6 +1,16 @@
 body{
-    background-color: cadetblue !important;
+    background-color: black!important;
+    
 }
+.navbar-custom{
+    background-color: #20B2AA;
+    color:white
+}
+
+.navbar-text{
+    color:white;
+}
+
 .welcome_h2{
     text-align: center;
     color: white;
@@ -11,14 +21,15 @@ body{
     
 }
 .five_span{
-    color:green;
-    background-color: lightgray;
+    color:lightseagreen;
+    /* background-color: lightgray; */
     
 }
 /* the last line of the list extended so that it's height is even */
 .space_li{
     height: 100%;
 }
+
 
 .drop_class{
     text-align: right;
@@ -27,6 +38,7 @@ body{
 .email_container{
     background-color: white;
     border-radius: 5px;
+    height: 80vh;
   
 }
 .email_p{
@@ -38,7 +50,7 @@ body{
 }
 
 .textarea_container{
-    margin-top: 150px;
+    margin-top: 120px;
 }
 
 .textarea_button{

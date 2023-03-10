@@ -12,16 +12,17 @@
   </head>
 <body>
 
- 
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <!--  -->
+  <!-- bg-body-tertiary -->
+  <nav class="navbar navbar-expand-lg navbar-custom">
     <div class="container-fluid">
       <!-- modified code below from an "a" tag to an "h3" tag -->
-      <h3 class="navbar-brand" >U-R-Email</h3>
+      <h3 class="navbar-brand text-white" >U-R-Email</h3>
       <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNavAltMarkup">
         <div class="navbar-nav">
         <!-- added a searchbar below -->
           <input class="form-control me-2" type="search" placeholder="Search Your Emails" aria-label="Search">
-      <button class="btn btn-outline-success" type="submit">Search</button>
+      <button class="btn btn-outline-light" type="submit">Search</button>
     
         </div>
       </div>
@@ -33,24 +34,27 @@
         <!-- added an email list below with checkboxes -->
         <div class="container-fluid">
           <div class="row d-flex justify-content-center">
-            <!-- First column below -->
-        <ul class="list-group col-sm-12 col-md-6 col-lg-2">
-          <li class="list-group-item">Inbox</li>
-          <li class="list-group-item">Sent</li>
-          <li class="list-group-item">Saved</li>
-          <li class="list-group-item">Drafts</li>
-          <li class="list-group-item">Trash</li>
-          <li class="list-group-item space_li d-flex align-items-end justify-content-center"><button class="btn btn-warning " type="submit">Compose</button></li>
+           <!-- First column below -->
+          
+        <ul class="list-group col-sm-12 col-md-6 col-lg-2" >
+          <li class="list-group-item" style="background-color:lightseagreen; color:white;" >Inbox</li>
+          <li class="list-group-item" style="background-color:lightseagreen; color:white;">Sent</li>
+          <li class="list-group-item" style="background-color:lightseagreen; color:white;">Saved</li>
+          <li class="list-group-item" style="background-color:lightseagreen; color:white;">Drafts</li>
+          <li class="list-group-item" style="background-color:lightseagreen; color:white;">Trash</li>
+          <li class="list-group-item space_li d-flex align-items-end justify-content-center" style="background-color:lightseagreen; color:white;"><button class="btn btn-warning " type="submit">Compose</button></li>
+        <br>
         </ul>
         
+          
         <!-- Second column with emails and dates below -->
         <ul class="list-group col-sm-12 col-md-6 col-lg-4">
-          <li class="list-group-item"><input type="checkbox"><span>  </span><span>tjones@gmail.com</span><span class="d-flex justify-content-end">1/10/22</span> </li>
-          <li class="list-group-item "><input type="checkbox"><span>  </span><span>mazer@yahoo.com item</span><span class="d-flex justify-content-end">1/9/22</span></li>
-          <li class="list-group-item"><input type="checkbox"><span>  </span><span>sharris@gmail.com</span><span class="d-flex justify-content-end">1/9/22</span> </li>
-          <li class="list-group-item"><input type="checkbox"><span>  </span><span>mlona@yahoo.com item</span><span class="d-flex justify-content-end">1/8/22</span></li>
-          <li class="list-group-item"><input type="checkbox"><span>  </span><span>jshoon@yahoo.com item</span><span class="d-flex justify-content-end">1/7/22</span>
-          <li class="list-group-item space_li"><div class="dropdown">
+          <li class="list-group-item" style="background-color:lightseagreen; color:white;"><input type="checkbox"><span>  </span><span>tjones@gmail.com</span><span class="d-flex justify-content-end">1/10/22</span> </li>
+          <li class="list-group-item" style="background-color:lightseagreen; color:white;"><input type="checkbox"><span>  </span><span>mazer@yahoo.com item</span><span class="d-flex justify-content-end">1/9/22</span></li>
+          <li class="list-group-item"style="background-color:lightseagreen; color:white;"><input type="checkbox"><span>  </span><span>sharris@gmail.com</span><span class="d-flex justify-content-end">1/9/22</span> </li>
+          <li class="list-group-item"style="background-color:lightseagreen; color:white;"><input type="checkbox"><span>  </span><span>mlona@yahoo.com item</span><span class="d-flex justify-content-end">1/8/22</span></li>
+          <li class="list-group-item"style="background-color:lightseagreen; color:white;"><input type="checkbox"><span>  </span><span>jshoon@yahoo.com item</span><span class="d-flex justify-content-end">1/7/22</span>
+          <li class="list-group-item space_li"style="background-color:lightseagreen; color:white;"><div class="dropdown">
             <div class="d-grid gap-2 d-md-block">
               <!-- below div is to separate READ button and DROPDOWN button -->
             <div class="d-flex justify-content-between">
@@ -59,27 +63,25 @@
             <!-- Dropdown menu from bootstrap below -->
             <button class=" btn btn-danger dropdown-toggle  " type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
               Action</button>
-            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-              <li><a class="dropdown-item" href="#">Inbox</a></li>
-              <li><a class="dropdown-item" href="#">Sent</a></li>
-              <li><a class="dropdown-item" href="#">Saved</a></li>
-              <li><a class="dropdown-item" href="#">Drafts</a></li>
-              <li><a class="dropdown-item" href="#">Trash</a></li>
-            </ul>
           </div>
           </div></li>
+        <br>
         </ul>
+        
       <!-- Third column below with textbox and open email -->
-      <div class="email_container col-sm-12 col-md-12 col-lg-6">
+      <div class="email_container col-sm-12 col-md-12 col-lg-6" style="background-color:lightseagreen; color:white;">
         <p class="email_p">From: tjones@gmail.com</p>
         <p class="email_p">To: nathan_dinut@gmail.com</p>
         <div class="email_div"><h4>Lets meet up again...</h4></div>
         <div class="written_email"><p>Hey Nathan, I just wanted to let you know that it was wonderful seeing you again. It has been a long time since I last saw you and you have changed a lot. Maybe we can get together again sometime. I will leave it up to you to decide. Go ahead and pick the place, the time, and day so that we may meet. Have a good one until I see you again, please take care of yourself...Christ's Peace be with you until we meet again. </p></div>
         <!-- text area below to respond to sender -->
-        <div class="textarea_container col-lg-8">
-          <textarea style="width: 100%;"name="" id="" cols="80" rows="5" placeholder="Compose"></textarea>
-          <input style="float: right;" class = "textarea_button btn btn-success"type="button" value="reply">
+        <div class="textarea_container ">
+          <textarea style="width: 100%;"name="" id="" cols="0" rows="5" placeholder="Compose"></textarea>
+          <input style="float: right;" class = "textarea_button btn btn-light"type="button" value="reply">
+          
+
         </div>
+        
 
 
 
